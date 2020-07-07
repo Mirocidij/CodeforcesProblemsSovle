@@ -1,5 +1,14 @@
+### Чтобы установить этот шаблон - вам нужна среда разработки Intellij IDEA
+
+* Нажмите `ctrl + alt + s`
+* Перейдите в раздел `Editor -> File and Code Templates`
+* Выберите в списке Class
+* Нажмите на плюсик
+* Вставьте в текстовое поле код, который находится ниже
+
+Теперь, при создании нового Java-файла вы сможете, среди прочего, выбрать свой шаблон
+
 ``` java
-#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
 #parse("File Header.java")
 
 /*
@@ -30,7 +39,4 @@ public class ${NAME} {
         
     }
 }
-
-
-
 ```
