@@ -1,0 +1,7 @@
+.idea
+Codeforces.iml
+out
+
+*.jar
+*.war
+*.ear
