@@ -58,10 +58,10 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-public class C1374 {
+public class C_1374 {
     public static void main(String[] args) {
         try {
-            new C1374().run();
+            new C_1374().run();
         } catch (IOException e) {
             System.exit(0);
         }
